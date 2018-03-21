@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>IRC CHAT CLIENT</h1>
+
+		<!--BUTTON TO TURN ON AND OFF CONNECTION TO IRC NETWORK(S)-->
+		<button id  = 'connect'>Connect</button>
+		<br><br>
+
+		<!--TEXTAREA WHERE MESSAGES ARE SENT-->
+		<textarea id = 'chat' rows = '25' readonly></textarea>
+		<br>
+
+		<!--TYPE IN YOUR MESSAGE AND HIT 'Send' TO SEND MESSAGE TO IRC NETWORK(S) YOU ARE CONNECTED TO-->
+		<input id = 'message' type = 'text' />
+		<button id  = 'send'>Send</button>
+
+		<!--I DON'T KNOW WHAT THIS IS-->
+		<div id = 'test'></div>
+
+		<!--SCRIPTS LOOADED AT BOTTOM FOR FASTER WEBPAGE LOADING TIME-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

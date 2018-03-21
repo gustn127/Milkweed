@@ -1,0 +1,19 @@
+{
+	"name": "IRC Chrome Extension",
+	"description" : "Base Level Extension",
+	"version": "1.0",
+	"manifest_version": 2,
+	"browser_action": 
+	{
+		"default_popup": "app.html",
+		"default_icon": "images/hello_extensions.png"
+	},
+  	"content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"	
+	/*
+	"background":
+	{
+      "scripts": ["app.js"],
+      "persistent": false
+    },
+    */
+}
