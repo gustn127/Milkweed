@@ -6,8 +6,8 @@
 
 $(document).ready(function()
 {
-	$('#clickBtn').click(function()
+	$('#connect').click(function()
 	{
-		$('#test').append("test");
+		$('#test').append("test<br>");
 	});
 });
