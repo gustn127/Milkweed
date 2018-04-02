@@ -31,37 +31,79 @@ class Application(Frame):
         print "="
 
     def printOne(self):
-        if "0" not in self.view.cget("text"):
+        if "0" in self.view.cget("text"):
             self.view.config(text="1")
         else:
-            
+            text = self.view.cget("text") + "1"
+            self.view.config(text=text)
 
     def printTwo(self):
-        print "2"
+        if "0" in self.view.cget("text"):
+            self.view.config(text="2")
+        else:
+            text = self.view.cget("text") + "2"
+            self.view.config(text=text)
 
     def printThree(self):
-        print "3"
+        if "0" in self.view.cget("text"):
+            self.view.config(text="3")
+        else:
+            text = self.view.cget("text") + "3"
+            self.view.config(text=text)
 
     def printFour(self):
-        print "4"
+        if "0" in self.view.cget("text"):
+            self.view.config(text="4")
+        else:
+            text = self.view.cget("text") + "4"
+            self.view.config(text=text)
 
     def printFive(self):
-        print "5"
+        if "0" in self.view.cget("text"):
+            self.view.config(text="5")
+        else:
+            text = self.view.cget("text") + "5"
+            self.view.config(text=text)
 
     def printSix(self):
-        print "6"
+        if "0" in self.view.cget("text"):
+            self.view.config(text="6")
+        else:
+            text = self.view.cget("text") + "6"
+            self.view.config(text=text)
 
     def printSeven(self):
-        print "7"
+        if "0" in self.view.cget("text"):
+            self.view.config(text="7")
+        else:
+            text = self.view.cget("text") + "7"
+            self.view.config(text=text)
 
     def printEight(self):
-        print "8"
+        if "0" in self.view.cget("text"):
+            self.view.config(text="8")
+        else:
+            text = self.view.cget("text") + "8"
+            self.view.config(text=text)
 
     def printNine(self):
-        print "9"
+        if "0" in self.view.cget("text"):
+            self.view.config(text="9")
+        else:
+            text = self.view.cget("text") + "9"
+            self.view.config(text=text)
 
     def printZero(self):
-        print "0"
+        if "0" in self.view.cget("text"):
+            if len(calcView) == 1:
+                {
+                    self.view.config(text="0")
+                }
+        elif len(self.view.cget("text")) > 1:
+                {
+                    text = self.view.cget("text") + "0"
+                    self.view.config(text=text)
+                }
 
     def printDot(self):
         print "."
